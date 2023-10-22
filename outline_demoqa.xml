@@ -1,27 +1,27 @@
-<TestSuite>
-  <url>https://www.saucedemo.com/</url>
-  <TestCase>
+<TestSuite>  
+  <url>https://demoqa.com/login</url>
+  <TestCase>    
     <Scenario>login</Scenario>
-    <LogicExpressionOfActions>
+    <LogicExpressionOfActions>      
       <type>and</type>
-      <LogicExpressionOfActions>
+      <LogicExpressionOfActions>        
         <type>Input Text</type>
         <locator>userName</locator>
-        <text>username_saucedemo</text>
+        <text>username_demoqa</text>
       </LogicExpressionOfActions>
-      <LogicExpressionOfActions>
+      <LogicExpressionOfActions>        
         <type>Input Text</type>
         <locator>passWord</locator>
-        <text>password_saucedemo</text>
+        <text>password_demoqa</text>
       </LogicExpressionOfActions>
     </LogicExpressionOfActions>
-    <LogicExpressionOfActions>
+    <LogicExpressionOfActions>      
       <type>Click Element</type>
       <locator>loginButton</locator>
     </LogicExpressionOfActions>
-    <Validation>
+    <Validation>      
       <type>URLValidation</type>
-      <url>https://www.saucedemo.com/inventory.html</url>
+      <url>https://demoqa.com/profile</url>
     </Validation>
   </TestCase>
 </TestSuite>
