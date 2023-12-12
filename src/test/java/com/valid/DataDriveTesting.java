@@ -1,6 +1,7 @@
 package com.valid;
 
-import org.example.objects.InputText;
+
+import com.objects.InputText;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
