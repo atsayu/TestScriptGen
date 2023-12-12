@@ -1,4 +1,4 @@
-package invalid;
+package org.invalid;
 
 public class findExpr {
     public static void main(String[] args) {

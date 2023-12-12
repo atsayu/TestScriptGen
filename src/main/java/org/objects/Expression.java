@@ -1,4 +1,4 @@
-package invalid.objects;
+package org.objects;
 
 public class Expression {
     private String locator;

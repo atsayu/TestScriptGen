@@ -1,6 +1,8 @@
-package invalid.objects;
+package org.objects;
 
-public class ClickElement extends Expression{
+import org.example.objects.Expression;
+
+public class ClickElement extends Expression {
 
     public ClickElement(String locator) {
         super(locator);

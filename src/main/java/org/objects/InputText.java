@@ -1,6 +1,8 @@
-package invalid.objects;
+package org.objects;
 
-public class InputText extends Expression{
+import org.example.objects.Expression;
+
+public class InputText extends Expression {
     private String value;
     private int size;
 

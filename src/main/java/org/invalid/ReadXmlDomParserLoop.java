@@ -1,8 +1,8 @@
-package invalid;
+package org.invalid;
 
 import com.opencsv.CSVReader;
-import org.invalid.objects.ClickElement;
-import org.invalid.objects.InputText;
+import org.objects.ClickElement;
+import org.objects.InputText;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;

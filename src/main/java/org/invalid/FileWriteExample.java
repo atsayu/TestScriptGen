@@ -1,4 +1,4 @@
-package invalid;
+package org.invalid;
 
 import java.io.BufferedWriter;
 import java.io.File;
