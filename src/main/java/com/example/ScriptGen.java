@@ -10,6 +10,8 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 import com.bpodgursky.jbool_expressions.Expression;
+import org.example.JavaHttpClient;
+import org.example.ReadXmlDomParserLoop;
 import org.example.newSolve;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -327,14 +329,14 @@ public class ScriptGen {
             content.insert(0, header.append("\n"));
             bufferedWriter.append(content);
             bufferedWriter.close();
-
+//            ReadXmlDomParserLoop.initInvalidDataParse(dataPath,outlinePath, outputScriptPath );
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
     public static void main(String[] args) {
 //        createDataSheetV2("outline_saucedemo.xml", "data_saucedemo.csv");
-        createScriptV2("outline_saucedemo.xml", "data_saucedemo.csv", "test_saucedemo.robot");
+//        createScriptV2("outline_saucedemo.xml", "data_saucedemo.csv", "test_saucedemo.robot");
 //
 //        createDataSheetV2("outline_demoqa.xml", "data_demoqa.csv");
 //        createScriptV2("outline_demoqa.xml", "data_demoqa.csv", "test_demoqa.robot");
@@ -343,5 +345,16 @@ public class ScriptGen {
 //        createScriptV2("outline_thinktester.xml", "data_thinktester.csv","thinktester.robot");
 
 
+//        createDataSheetV2("heroky.xml", "heroky.csv");
+
+
+        String expr = "A%26B";
+        Vector test = ReadXmlDomParserLoop.truthTableParse(expr);
+        String truth = JavaHttpClient.logicParse(expr);
+        Vector tb = ReadXmlDomParserLoop.truthTableParse(truth);
+        System.out.println(truth);
+        System.out.println(tb);
+        System.out.println("hello");
+        ReadXmlDomParserLoop.initInvalidDataParse("data_saucedemo.csv", "outline_saucedemo.xml", "test_saucedemo.robot");
     }
 }

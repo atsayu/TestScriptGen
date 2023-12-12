@@ -1,0 +1,10 @@
+<TestSuite>  
+  <url>https://the-internet.herokuapp.com/challenging_dom</url>
+  <TestCase>    
+    <Scenario>testLocator</Scenario>
+    <LogicExpressionOfActions>      
+      <type>Click Element</type>
+      <locator>foo_button</locator>
+    </LogicExpressionOfActions>
+  </TestCase>
+</TestSuite>

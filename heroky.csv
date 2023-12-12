@@ -1,0 +1,1 @@
+foo_button,xpath=//a[@class='button' and normalize-space()='foo']

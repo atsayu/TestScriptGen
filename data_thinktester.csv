@@ -1,0 +1,20 @@
+first_name & last_name
+date_birth
+valid_email
+valid_phone
+street_address_1
+street_address_2
+valid_city
+state_province
+postal_code
+firstName,xpath=//input[@id='firstName' and @placeholder='First Name']
+lastName,xpath=//input[@id='lastName' and @placeholder='Last Name']
+email,xpath=//input[@id='email' and @placeholder='example@email.com']
+city,xpath=//input[@id='city' and @placeholder='City']
+postalCode,xpath=//input[@id='postalCode' and @placeholder='Postal Code']
+stateProvince,xpath=//input[@id='stateProvince' and @placeholder='State or Province']
+phone,xpath=//input[@id='phone']
+dateBirth,xpath=//input[@id='birthdate']
+streetAddress1,xpath=//input[@id='street1' and @placeholder='Address 1']
+streetAddress2,xpath=//input[@id='street2' and @placeholder='Address 2']
+submitButton,xpath=//button[@id='submit' and @type='submit' and normalize-space()='Submit']
