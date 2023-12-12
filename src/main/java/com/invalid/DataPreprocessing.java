@@ -23,7 +23,7 @@ import static com.invalid.InvalidTestGen.invalidTestCaseGen;
 import static com.invalid.PythonTruthTableServer.logicParse;
 
 public class DataPreprocessing {
-    static Dictionary<String, Vector<Vector<String>>> lineDict = new Hashtable<>();
+    public static Dictionary<String, Vector<Vector<String>>> lineDict = new Hashtable<>();
     static Vector<Vector<String>> invalidDict = new Vector<>();
     public static Vector<String> temp = new Vector<>();
 
